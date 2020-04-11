@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <title>点赞动画</title>
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no" />
+  <meta name="format-detection" content="telephone=no" />
+  <link rel="stylesheet" type="text/css" href="./style.css"/>
+  <style>
+      .container {
+        display:inline-block;
+        vertical-align:top;
+      }
+  </style>
+</head>
+<body ontouchstart>
+    <div class="container">
+    <h2>CSS3:</h2>
+    <div class="praise_bubble" id="praise_bubble">
+    </div>
+</div>
+<div class="container">
+    <h2>Canvas:</h2>
+    <canvas id="thumsCanvas" width="200" height="400" style="width:100px;height:200px"></canvas>
+</div>
+    <script src="./index.js"></script>
+    <script src="./canvas.js"></script>
+    <script>
+        const thumbsUpAni = new ThumbsUpAni();
+            setInterval(()=>{
+                thumbsUpAni.start();
+            },300);
+    </script>
+</body>
+</html>

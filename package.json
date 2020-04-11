@@ -1,0 +1,19 @@
+{
+  "name": "praise-animation",
+  "version": "1.0.0",
+  "description": "直播无限点赞动画，",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antiter/praise-animation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antiter/praise-animation/issues"
+  },
+  "homepage": "https://github.com/antiter/praise-animation#readme"
+}
