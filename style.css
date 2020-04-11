@@ -16,6 +16,7 @@ body {
   bottom: 0px;
   background-repeat: no-repeat;
   background-size: 100%;
+  transform-origin: bottom;
 }
 .b1 {
   background-image: url(./images/bg1.png);
@@ -302,7 +303,7 @@ body {
     opacity: 1;
   }
   100% {
-    margin-bottom: 180px;
+    margin-bottom: 200px;
     opacity: 0;
   }
 }
